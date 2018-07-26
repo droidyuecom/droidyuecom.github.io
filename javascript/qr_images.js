@@ -1,4 +1,6 @@
-var images = ["https://asset.droidyue.com/image/kotlin_zhangtao.jpeg",
+var images = [
+	"https://asset.droidyue.com/image/java_vm.jpeg",
+	"https://asset.droidyue.com/image/kotlin_zhangtao.jpeg",
 						"https://asset.droidyue.com/image/qutan_wangluo_xieyi.png",
 						"https://asset.droidyue.com/image/java_basic.jpeg",
 						"https://asset.droidyue.com/image/gitchat_refer.jpeg",
