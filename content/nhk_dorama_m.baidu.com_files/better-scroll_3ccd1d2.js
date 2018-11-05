@@ -1,0 +1,1 @@
+define("@baidu/better-scroll",["@baidu/better-scroll/better-scroll"],function(e){return e});

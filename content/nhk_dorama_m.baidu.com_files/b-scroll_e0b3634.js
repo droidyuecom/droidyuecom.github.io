@@ -1,0 +1,2 @@
+define("fusion/b-scroll/b-scroll",["fusion/deps/fusion.best","fusion/b-scroll/bdscroll","fusion/b-scroll/scroll"],function(l,o,n){var s=n;return l("b-scroll",{props:{snap:{type:Boolean,value:!1},momentum:{type:Boolean,value:!1}},holdChild:!0,scroll:null,init:function(){n=s;var l=this,r=this.getProp("momentum"),t=this.getProp("snap"),i=this.$(".c-scroll-wrapper").get(0),e={snap:t,momentum:r},c=this.$(".c-scroll-indicator");c.length>0&&(e.$indicator=c),(t||r)&&(n=o);var u=new n(i,e);this.scroll=u,
+u.on("scrollEnd",function(){l.trigger("scrollEnd",u)})}})});

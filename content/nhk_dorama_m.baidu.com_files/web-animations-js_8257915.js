@@ -1,0 +1,1 @@
+define("@baidu/web-animations-js",["@baidu/web-animations-js/web-animations.min"],function(i){return i});

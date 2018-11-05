@@ -1,0 +1,1 @@
+define("@baidu/jssdk",["@baidu/jssdk/index"],function(d){return d});

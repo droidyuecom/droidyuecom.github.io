@@ -1,0 +1,1 @@
+define("@baidu/atom-web-runtime",["@baidu/atom-web-runtime/dist/atom.min"],function(i){return i});
