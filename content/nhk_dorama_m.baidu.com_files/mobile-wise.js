@@ -1,0 +1,2 @@
+/* eslint-disable */
+!function(e){var t=document.createElement("script");t.src="//g0.baidu.com/mms/graph/static/resource/sdk/v1.11.7/mms-wise.js",t.async=!0,t.setAttribute("charset","UTF-8"),document.getElementsByTagName("head")[0].appendChild(t);var a={status:null,readyCallbacks:[]};a.ready=function(e){"function"==typeof e&&("ready"===a.status?setTimeout(e,0):a.readyCallbacks.push(e))},e.BD_MMS=a}(this);
