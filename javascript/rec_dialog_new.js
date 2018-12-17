@@ -23,7 +23,7 @@ var recDialogContent = '';
 //} else {*/
 /*recDialogContent = recDialogContent + '<p align="center">很有意思的网络协议讲解</p><img width="200" src="https://asset.droidyue.com/image/qutan_wangluo_xieyi.png">'*/
 
-recDialogContent = recDialogContent + '<p align="center">Java和Android程序员的进阶推荐</p><img width="200" src="https://asset.droidyue.com/image/java_vm.jpeg">'
+recDialogContent = recDialogContent + '<p align="center">推荐</p><img width="200" src="' + shuffleArray(geekTimeQrImages)[0] + '">'
 /*}*/
 
 /*
