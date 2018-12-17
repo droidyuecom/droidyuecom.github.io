@@ -34,6 +34,6 @@ recDialogContent = recDialogContent + '<p align="center">优质内容推荐</p><
 </ul>
 */
 
-if (true) {
+if (isDesktop() || isWeixinBrowser()) {
     toastr.info(recDialogContent, " ");
 }
