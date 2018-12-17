@@ -34,6 +34,6 @@ recDialogContent = recDialogContent + '<p align="center">Java和Android程序员
 </ul>
 */
 
-if (false) {
+if (true) {
     toastr.info(recDialogContent, " ");
 }
