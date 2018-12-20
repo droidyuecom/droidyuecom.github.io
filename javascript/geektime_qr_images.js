@@ -22,4 +22,6 @@ var geekTimeQrImages = [
 	"https://asset.droidyue.com/image/geektime/jishulingdaoli_300_jiang_1212.jpeg" 
 
 
-]
+];
+
+geekTimeQrImages = shuffleArray(geekTimeQrImages);
