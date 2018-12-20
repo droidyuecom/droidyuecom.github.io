@@ -224,6 +224,29 @@ function makeBestPostsDataSource() {
     data['为什么我要改用Kotlin'] = 'http://droidyue.com/blog/2017/05/18/why-do-i-turn-to-kotlin/';
 
     data['如何看待 Kotlin 成为 Android 官方支持开发语言？'] = 'http://droidyue.com/blog/2017/05/21/my-opinion-of-kotlins-becoming-an-official-language-of-android/';
+    
+    data['我学习Android的一些套路'] = 'https://droidyue.com/blog/2017/10/22/to-way-to-learning-android/';	
+	
+    data['Kotlin中常量的探究'] = 'https://droidyue.com/blog/2017/11/05/dive-into-kotlin-constants/';
+	
+    data['关于应用Kotlin后的编译速度问题'] = 'https://droidyue.com/blog/2018/01/31/how-to-speed-up-kotlin-compilation/';
+	
+    data['Android中实现用户无感知处理后台崩溃'] = 'https://droidyue.com/blog/2018/04/01/do-not-bother-the-user-when-app-crash-in-a-background-state/';	
+	
+    data['AssetManager.finalize() Timed Out After 10 Seconds分析'] = 'https://droidyue.com/blog/2018/07/10/android-dot-content-dot-res-dot-assetmanager-dot-finalize-timed-out-after-10-seconds/';
+	
+    data['为什么局部变量需要显式设置初始化值'] = 'https://droidyue.com/blog/2018/07/16/variable-localname-might-not-have-been-initialized/';
+	
+    data['浅析WeakHashMap'] = 'https://droidyue.com/blog/2018/07/23/a-briefing-looking-at-weakhashmap/';
+	
+    data['探究Kotlin的局部方法'] = 'https://droidyue.com/blog/2018/10/07/dive-into-kotlins-local-function/';	
+	
+    data['有点意思的Kotlin的默认参数与JVMOverloads'] = 'https://droidyue.com/blog/2018/10/14/dive-into-kotlin-default-arguments-and-jvmoverloads/';	
+	
+    data['详解JVM如何处理异常'] = 'https://droidyue.com/blog/2018/10/21/how-jvm-handle-exceptions/';
+	
+	data['JVM 中的守护线程'] = 'https://droidyue.com/blog/2018/12/16/daemon-thread-in-java/';
+
 
     return data;
 }
