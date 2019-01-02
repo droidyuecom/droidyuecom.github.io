@@ -13,13 +13,13 @@ var geekTimeQrImages = [
 
     "https://asset.droidyue.com/image/geektime/qutanwangluoxieyi.jpeg",
 
-    "https://asset.droidyue.com/image/geektime/java_hexin_jishu_36_jiang_1224.jpeg",
+    "https://asset.droidyue.com/image/java_hexin_jishu_36_jiang.jpeg",
 
     "https://asset.droidyue.com/image/geektime/zhuyun_de_jishu_guanli_ke.jpeg",
 
 	"https://asset.droidyue.com/image/geektime/zuoer_tingfeng.jpeg",
 
-    "https://asset.droidyue.com/image/geektime/jishu_lingdaoli_300_jiang_1224.jpeg"
+    "https://asset.droidyue.com/image/jishlingdaoli_300_jiang.jpeg"
 
 ];
 
