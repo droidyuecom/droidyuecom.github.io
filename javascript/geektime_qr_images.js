@@ -17,7 +17,7 @@ var geekTimeQrImages = [
 
     "https://asset.droidyue.com/image/geektime/zhuyun_de_jishu_guanli_ke.jpeg",
 
-	"https://asset.droidyue.com/image/geektime/zuoer_tingfeng.jpeg",
+	"https://asset.droidyue.com/image/geektime/zuoerduo_haozi_zhuanlan.jpeg",
 
     "https://asset.droidyue.com/image/jishlingdaoli_300_jiang.jpeg"
 
