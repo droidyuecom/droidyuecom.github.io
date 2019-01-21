@@ -245,7 +245,9 @@ function makeBestPostsDataSource() {
 	
     data['详解JVM如何处理异常'] = 'https://droidyue.com/blog/2018/10/21/how-jvm-handle-exceptions/';
 	
-	data['JVM 中的守护线程'] = 'https://droidyue.com/blog/2018/12/16/daemon-thread-in-java/';
+    data['JVM 中的守护线程'] = 'https://droidyue.com/blog/2018/12/16/daemon-thread-in-java/';
+	
+    data['聊一聊未捕获异常与进程退出的关联'] = "https://droidyue.com/blog/2019/01/21/thread-process-and-uncaught-exceptions/";
 
 
     return data;
