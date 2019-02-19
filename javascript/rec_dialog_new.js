@@ -34,6 +34,6 @@ recDialogContent = recDialogContent + '<p align="center">精品优质内容推�
 </ul>
 */
 
-if (isDesktop()) {
+if (isDesktop() && false) {
     toastr.info(recDialogContent, " ");
 }
