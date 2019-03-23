@@ -263,7 +263,7 @@ function shouldLimitBestPosts() {
 
 
 function getBestPostsLimitSize() {
-	return 25;
+	return 10;
     
 }
 
