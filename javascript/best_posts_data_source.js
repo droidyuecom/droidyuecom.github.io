@@ -249,6 +249,13 @@ function makeBestPostsDataSource() {
 	
     data['聊一聊未捕获异常与进程退出的关联'] = "https://droidyue.com/blog/2019/01/21/thread-process-and-uncaught-exceptions/";
 
+    data['处理 WebView 与 ViewPager 滑动冲突'] = 'https://droidyue.com/blog/2019/01/27/webview-javascript-scrolling-issue/';
+	
+    data['终端反编译字节码利器 CFR'] = 'https://droidyue.com/blog/2019/02/24/decompile-class-file-command-line/';
+	
+    data['聊一聊SLAP:单一抽象层级原则'] = 'https://droidyue.com/blog/2019/03/17/slap-single-level-of-abstraction-principle/';
+	
+    data['货物崇拜编程'] = 'https://droidyue.com/blog/2019/03/24/cargo-cults-programming/';	
 
     return data;
 }
