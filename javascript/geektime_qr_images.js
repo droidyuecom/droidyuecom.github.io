@@ -27,8 +27,7 @@ var geekTimeQrImages = [
 	
 	"https://asset.droidyue.com/image/geektime/jiqixuexi_40_jiang_0308.png",
 	
-	"https://asset.droidyue.com/image/2019_05/gitchat_refer.jpeg"
-
+	"https://asset.droidyue.com/image/2019_05/gitchat_refer_new.jpg"
 ];
 
 geekTimeQrImages = shuffleArray(geekTimeQrImages);
