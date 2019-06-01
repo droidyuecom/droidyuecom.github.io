@@ -59,7 +59,9 @@ function makeBlogRollDataSource() {
 
     //data = appendHongxin(data);
     data['OneDrive 超实用网盘'] = 'https://onedrive.live.com?invref=6b59396564b1963a&invscr=90';
+	
     data['玩客云 私人云盘 迅雷 畅快下载 轻NAS'] = "https://u.jd.com/ZLxAMy"; 	
+    data['Digital Ocean VPS：注册赠送50刀'] = 'https://m.do.co/c/3c4ff5a7ed39';
     data['Vultr VPS, 注册赠送50刀，节点丰富,最低3美刀/月'] = 'https://www.vultr.com/?ref=7819525-4F';
     data['超强路由器 网件NETGEAR WIFI双频千兆无线路由器 中继 OPENWRT多拨'] = 'https://s.click.taobao.com/t?e=m%3D2%26s%3DvCkZ5LnV6jEcQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67qNt1tv4PQ%2FZ2yqscP0DbOLM3gYQjCL89vSdxyvKgR5IYpon8UCVSYYxlixgehhYB0Tt1%2FHfNXx2BMGh5JTLAt%2FtF%2FQ8iK%2FmlXSWvTmLw6qt&pvid=10_45.76.81.169_13674_1479774191207';
     data['通勤读书神器Kindle'] = 'https://www.amazon.cn/gp/product/B0186FESGW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0186FESGW&linkCode=as2&tag=droidyue-23';
