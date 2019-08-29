@@ -1,10 +1,21 @@
 <html>
 <script type="text/javascript">
+var newWindow;    
+    
 function openNewWebPage() {
     console.info("openNewWebpage")
-    window.open("https://asset.droidyue.com/htmls/inter_webpage_communication/dest.html")
+    newWindow = window.open("https://asset.droidyue.com/htmls/inter_webpage_communication/dest.html");
+
 }
+
+function sendMessage() {
+    newWindow.postMessage("Hello from source", "https://asset.droidyue.com")
+}
+    
+    
 </script>
 
 <button onclick="openNewWebPage();">Open new webpage</button>
+<button onclick="openMessage();">SendMessage</button>
+
 </html>
