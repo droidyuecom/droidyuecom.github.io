@@ -12,7 +12,16 @@ function sendMessage() {
     newWindow.postMessage("Hello from source", "https://asset.droidyue.com/htmls/inter_webpage_communication/dest.html")
     console.info("sendMessage done")
 }
+  
     
+window.onload=function(){
+      function receiveMessage(e){
+        console.info("receivemessage in source.html");
+        if(e.origin!=="http://asset.droidyue.com")return;
+        console.info("receivemessage ");
+      }
+      
+      window.addEventListener('message',receiveMessage);}
     
 </script>
 
