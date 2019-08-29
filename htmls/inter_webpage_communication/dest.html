@@ -1,15 +1,15 @@
 <html>
-hello destination
+hello destination11111
   
   <script type="text/javascript">
     window.onload=function(){
       function receiveMessage(e){
         console.info("receivemessage ");
+        window.parent.postMessage("Hello from dest", "https://asset.droidyue.com/htmls/inter_webpage_communication/source.html")
 
         if(e.origin!=="http://asset.droidyue.com")return;
         console.info("receivemessage ");
         
-        window.parent.postMessage("Hello from dest", "https://asset.droidyue.com/htmls/inter_webpage_communication/source.html")
         
       }
       
