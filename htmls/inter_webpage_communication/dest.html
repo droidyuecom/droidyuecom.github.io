@@ -8,6 +8,9 @@ hello destination
 
         if(e.origin!=="http://asset.droidyue.com")return;
         console.info("receivemessage ");
+        
+        window.parent.postMessage("Hello from dest", "https://asset.droidyue.com/htmls/inter_webpage_communication/source.html")
+        
       }
       
       window.addEventListener('message',receiveMessage);}
