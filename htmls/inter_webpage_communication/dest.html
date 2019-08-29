@@ -4,6 +4,8 @@ hello destination
   <script type="text/javascript">
     window.onload=function(){
       function receiveMessage(e){
+        console.info("receivemessage ");
+
         if(e.origin!=="http://asset.droidyue.com")return;
         console.info("receivemessage ");
       }
