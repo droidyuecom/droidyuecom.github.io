@@ -1,3 +1,14 @@
 <html>
 hello destination
+  
+  <script type="text/javascript">
+    window.onload=function(){
+      function receiveMessage(e){
+        if(e.origin!=="http://asset.droidyue.com")return;
+        console.info("receivemessage ");
+      }
+      
+      window.addEventListener('message',receiveMessage);}
+
+  </script>
 </html>
