@@ -69,6 +69,14 @@
             handler();
         }
     }
+	
+    function _runBridgeHandlerWithOneParameter(handlerName, parameter) {
+    	var handler = messageHandlers[handlerName];
+        if (handler) {
+            handler(parameter);
+        }
+    }
+	
 
     //sendMessage add message, 触发native处理 sendMessage
     function _doSend(message, responseCallback) {
@@ -152,7 +160,8 @@
         callHandler: callHandler,
         _fetchQueue: _fetchQueue,
         _handleMessageFromNative: _handleMessageFromNative,
-        _runBridgeHandler: _runBridgeHandler
+        _runBridgeHandler: _runBridgeHandler,
+	_runBridgeHandlerWithOneParameter:_runBridgeHandlerWithOneParameter
     };
 
     var doc = document;
