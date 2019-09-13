@@ -1,18 +1,22 @@
 <html>
 <script type="text/javascript">
     function sayHello() {
+        console.info("sayHello function executed");
         alert("Hello")
     }
 
     function alertMessage(message) {
+        console.info("alertMessage function executed");
         alert(message)
     }
 
     function toastMessage(message) {
+        console.info("toastMessage function executed");
         window.control.toastMessage(message)
     }
 
     function sumToJava(number1, number2){
+        console.info("sumToJava function executed");
        window.control.onSumResult(number1 + number2)
     }
 </script>
