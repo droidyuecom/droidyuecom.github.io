@@ -29,6 +29,7 @@
     function _createQueueReadyIframe4biz(doc) {
         bizMessagingIframe = doc.createElement('iframe');
         bizMessagingIframe.style.display = 'block';
+	bizMessagingIframe.style.background = "green"
         doc.documentElement.appendChild(bizMessagingIframe);
     }
     //set default messageHandler  初始化默认的消息线程
