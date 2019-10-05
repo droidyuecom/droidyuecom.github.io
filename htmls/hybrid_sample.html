@@ -10,7 +10,11 @@
     <title>
       页面标题页面标题页面标题页面标题页面标题页面标题页面标题页面标题页面标题
     </title>
-    <script src="https://asset.droidyue.com/javascript/WebViewJavascriptBridge_android_1214.js"></script>
+    <script>
+      var scr = document.createElement("script");
+      scr.src = "https://asset.droidyue.com/javascript/WebViewJavascriptBridge_android_1214.js" + "?ts=" + new Date().getTime();
+      document.getElementsByTagName("head")[0].appendChild(scr);
+    </script>
 
 
     <style type="text/css">
