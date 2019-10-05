@@ -110,6 +110,7 @@
 
     //提供给native使用,
     function _dispatchMessageFromNative(messageJSON) {
+	console.log("_dispatchMessageFromNative json=" + JSON.stringify(messageJSON))
         setTimeout(function() {
             var message = JSON.parse(messageJSON);
             var responseCallback;
@@ -155,9 +156,10 @@
 
     //提供给native调用,receiveMessageQueue 在会在页面加载完后赋值为null,所以
     function _handleMessageFromNative(messageJSON) {
-        // console.log('jsBridge:' + messageJSON);
+        console.log('_handleMessageFromNative:' + JSON.stringify(messageJSON));
         if (receiveMessageQueue) {
             receiveMessageQueue.push(messageJSON);
+	    console.log('_handleMessageFromNative pushed into receiveMessageQueue');
         }
         _dispatchMessageFromNative(messageJSON);
     }
