@@ -61,7 +61,7 @@
     }
     // 调用线程
     function callHandler(handlerName, data, responseCallback) {
-        console.info("callHandler handleName=" + handlerName + ";data=" + data);
+        console.info("callHandler handleName=" + handlerName + ";data=" + JSON.parse(data));
         _doSend({
             handlerName: handlerName,
             data: data
