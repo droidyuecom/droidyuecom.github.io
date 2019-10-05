@@ -129,6 +129,16 @@
 
       $(".btn_network_info").click(function() {
         console.info("btn_network_info clicked");
+        window.WebViewJavascriptBridge.callHandler(
+          "JsCallNativeMethod",
+          {
+            action: "getNetworkInfo",
+            needResult: true
+          },
+          function(result) {
+            alert(JSON.stringify(result));
+          }
+        );
       });
       
     </script>
