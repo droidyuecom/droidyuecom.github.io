@@ -98,11 +98,14 @@
 
     // 提供给native调用,该函数作用:获取sendMessageQueue返回给native,由于android不能直接获取返回的内容,所以使用url shouldOverrideUrlLoading 的方式返回内容
     function _fetchQueue() {
+	console.log("_fetchQueue start")    
         if(sendMessageQueue.length == 0) return;
         var messageQueueString = JSON.stringify(sendMessageQueue);
         sendMessageQueue = [];
+	console.log("_fetchQueue messageQueued=" + messageQueueString);    
         //android can't read directly the return data, so we can reload iframe src to communicate with java
         bizMessagingIframe.src = CUSTOM_PROTOCOL_SCHEME + '://return/_fetchQueue/' + encodeURIComponent(messageQueueString);
+    	console.log("_fetchQueue set bizMessagingIframe")
     }
 
     //提供给native使用,
