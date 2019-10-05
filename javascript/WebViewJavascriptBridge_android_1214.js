@@ -24,6 +24,7 @@
         messagingIframe.style.display = 'block';
 	messagingIframe.style.background = "red"
         doc.documentElement.appendChild(messagingIframe);
+	console.info("createQueueReadyIFrame")
     }
     //创建消息体队列iframe
     function _createQueueReadyIframe4biz(doc) {
@@ -31,6 +32,8 @@
         bizMessagingIframe.style.display = 'block';
 	bizMessagingIframe.style.background = "green"
         doc.documentElement.appendChild(bizMessagingIframe);
+	console.info("createQueueReadyIFrame4Biz")
+
     }
     //set default messageHandler  初始化默认的消息线程
     function init(messageHandler) {
