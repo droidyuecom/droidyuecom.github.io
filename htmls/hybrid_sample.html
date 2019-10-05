@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"
+    />
+    <title>
+      页面标题页面标题页面标题页面标题页面标题页面标题页面标题页面标题页面标题
+    </title>
+    <script src="https://asset.droidyue.com/javascript/WebViewJavascriptBridge_android_1214.js"></script>
+
+
+    <style type="text/css">
+      div {
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        font-size: 1rem;
+        color: #000;
+        background-color: #eee;
+        margin-bottom: 1rem;
+      }
+
+      .test_box {
+        width: 100%;
+        height: 200px;
+        background-color: pink;
+        overflow-x: scroll;
+      }
+
+      .inner_box {
+        width: 1000px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      
+        document.write("UserAgent=" + navigator.userAgent);
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("<br/>");
+
+        document.write("Cookie=" + document.cookie);
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("<br/>");
+        document.write("<br/>");
+
+    </script>
+
+
+    <section>
+      <p>Image File Chooser</p>
+      <input type="file" accept="image/*" />
+
+      <p>Camera Capture</p>
+      <input type="file" accept="image/*" capture="camera" />
+
+      <p>Video recorder Capture</p>
+      <input type="file" accept="video/*" capture="camcorder" />
+
+      <p>Video File Chooser</p>
+      <input type="file" accept="video/*" />
+
+      <p>Common File Chooser</p>
+      <input type="file" />
+
+      <div class="test_box">
+        <div class="inner_box">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus provident optio fugit cupiditate et magni recusandae
+          corrupti voluptatum repudiandae sunt, quo beatae eius. Atque quibusdam
+          nulla alias temporibus tempora facilis earum beatae, non ullam
+          accusamus dolorum autem, nesciunt adipisci aut dolores blanditiis
+          numquam et laudantium nobis delectus asperiores deserunt voluptate
+          quae hic. Repudiandae tenetur saepe laudantium expedita molestiae
+          soluta omnis facilis! Ipsam quis optio dicta ipsa repellendus soluta
+          reprehenderit magnam dolor quisquam provident nihil molestias earum,
+          vitae dolorum quo maiores ut, nobis eligendi a nemo rem mollitia? Nemo
+          illum, cumque voluptate beatae animi deserunt in dolor numquam, a
+          quasi molestiae.
+        </div>
+      </div>
+
+      <div class="btn_network_info">获取网络信息</div>
+      
+
+    </section>
+
+    <script
+      type="text/javascript"
+      src="https://mstatic.secooimg.com/js/zepto.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      function onResume() {
+        console.log("onResume get called");
+      }
+
+      function onStop() {
+        console.log("onStop get called");
+      }
+
+      function onUserLogin() {
+        console.log("onUserLogin get called");
+      }
+
+      function onUserLogout() {
+        console.log("onUserLogout get called");
+      }
+
+
+      console.log(
+        "Cookie=" +
+          document.cookie +
+          ";    User-agent header sent: " +
+          navigator.userAgent
+      );
+
+
+      window.WebViewJavascriptBridge.registerHandler("clickEdFn2", function() {
+        console.info("clickEdFn2 get called");
+      });
+
+      window.WebViewJavascriptBridge.registerHandler("clickEdFn1", function() {
+        console.info("clickEdFn1 get called");
+      });
+
+      window.WebViewJavascriptBridge.registerHandler("rightEvent", function() {
+        console.info("rightEvent get called");
+      });
+      
+    </script>
+  </body>
+  <script src="http://asset.droidyue.com/activity2018/js/android/WebViewJavascriptBridge_android_not_found.js"></script>
+</html>
