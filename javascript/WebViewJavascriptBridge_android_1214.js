@@ -90,7 +90,7 @@
             responseCallbacks[callbackId] = responseCallback;
             message.callbackId = callbackId;
         }
-	console.info("_doSend message=" + Json.stringify(message) + ";callbackId=" + message.callbackId);
+	console.info("_doSend message=" + JSON.stringify(message) + ";callbackId=" + message.callbackId);
         sendMessageQueue.push(message);
         messagingIframe.src = CUSTOM_PROTOCOL_SCHEME + '://' + QUEUE_HAS_MESSAGE;
 	console.info("_doSend set messagingUrl=" + (messagingIframe.src))    
