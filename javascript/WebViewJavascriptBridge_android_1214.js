@@ -22,6 +22,7 @@
     function _createQueueReadyIframe(doc) {
         messagingIframe = doc.createElement('iframe');
         messagingIframe.style.display = 'block';
+	messagingIframe.style.background = "red"
         doc.documentElement.appendChild(messagingIframe);
     }
     //创建消息体队列iframe
