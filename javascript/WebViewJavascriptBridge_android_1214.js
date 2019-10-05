@@ -21,13 +21,13 @@
     // 创建消息index队列iframe
     function _createQueueReadyIframe(doc) {
         messagingIframe = doc.createElement('iframe');
-        messagingIframe.style.display = 'none';
+        messagingIframe.style.display = 'block';
         doc.documentElement.appendChild(messagingIframe);
     }
     //创建消息体队列iframe
     function _createQueueReadyIframe4biz(doc) {
         bizMessagingIframe = doc.createElement('iframe');
-        bizMessagingIframe.style.display = 'none';
+        bizMessagingIframe.style.display = 'block';
         doc.documentElement.appendChild(bizMessagingIframe);
     }
     //set default messageHandler  初始化默认的消息线程
