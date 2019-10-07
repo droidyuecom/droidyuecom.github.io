@@ -117,7 +117,7 @@
             var responseCallback;
             //java call finished, now need to call js callback function
             if (message.responseId) {
-		console.info("the java side has finished the work");
+		console.info("_dispatchMessageFromNative the java side has finished the work");
                 responseCallback = responseCallbacks[message.responseId];
                 if (!responseCallback) {
                     return;
