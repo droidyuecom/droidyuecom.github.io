@@ -1,4 +1,5 @@
-var geekTimeQrImages = [
+
+var originalGeekTimeQrImages = [
 	"https://asset.droidyue.com/image/maths_for_programer.jpeg",
 
 	"https://asset.droidyue.com/image/geektime/suanfa_mianshi_tongguan_40_jiang.jpeg",
@@ -31,5 +32,6 @@ var geekTimeQrImages = [
 	
 	"https://asset.droidyue.com/image/2019_05/java_performance.jpeg"
 ];
-
-geekTimeQrImages = shuffleArray(geekTimeQrImages);
+var tempGeekTimeImages = []
+tempGeekTimeImages.push(originalGeekTimeQrImages[0])
+var geekTimeQrImages = shuffleArray(tempGeekTimeImages.concat(originalGeekTimeQrImages));
