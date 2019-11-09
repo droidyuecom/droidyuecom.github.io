@@ -1,5 +1,7 @@
 
 var originalGeekTimeQrImages = [
+	"https://asset.droidyue.com/image/geektime/shejimoshi_zhimei_zaoniao.jpg",
+	
 	"https://asset.droidyue.com/image/maths_for_programer.jpeg",
 
 	"https://asset.droidyue.com/image/geektime/suanfa_mianshi_tongguan_40_jiang.jpeg",
