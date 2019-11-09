@@ -34,4 +34,4 @@ var originalGeekTimeQrImages = [
 ];
 var tempGeekTimeImages = []
 tempGeekTimeImages.push(originalGeekTimeQrImages[0])
-var geekTimeQrImages = shuffleArray(tempGeekTimeImages.concat(originalGeekTimeQrImages));
+var geekTimeQrImages = tempGeekTimeImages.concat(shuffleArray(originalGeekTimeQrImages));
