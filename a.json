@@ -1,0 +1,73 @@
+{
+  "result": [
+    {
+      "type": 1,
+      "data": [
+        {
+          "id": 7256408.80822964,
+          "title": null,
+          "openType": 0,
+          "skipUrl": "https://droidyue.com",
+          "broadcastId": 62860081,
+          "imageUrl": "https://asset.droidyue.com/image/201908/kaikeba.png"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "data": [
+        {
+          "id": -41843863.56290019,
+          "title": null,
+          "openType": 1,
+          "skipUrl": "https://droidyue.com",
+          "broadcastId": 37768221.31621963,
+          "imageUrl": "https://asset.droidyue.com/image/java_basic.jpeg"
+        },{
+          "id": -41843863.56290019,
+          "title": null,
+          "openType": 1,
+          "skipUrl": "https://droidyue.com",
+          "broadcastId": 37768221.31621963,
+          "imageUrl": "https://asset.droidyue.com/image/java_vm.jpeg"
+        },{
+          "id": -41843863.56290019,
+          "title": null,
+          "openType": 1,
+          "skipUrl": "https://droidyue.com",
+          "broadcastId": 37768221.31621963,
+          "imageUrl": "https://asset.droidyue.com/image/mijia.png"
+        }
+        
+      ]
+    },
+    {
+      "type": 3,
+      "data": [
+        {
+          "id": 89678679.74365866,
+          "title": null,
+          "openType": 2,
+          "skipUrl": "https://droidyue.com/",
+          "broadcastId": 61443163.060920626,
+          "imageUrl": "https://asset.droidyue.com/image/wechat_gongzhonghao_droidyue.com.jpg"
+        }
+      ]
+    },
+    
+    {
+      "type": 4,
+      "data": [
+        {
+          "id": 89678679.74365866,
+          "title": null,
+          "openType": 2,
+          "skipUrl": "https://droidyue.com/",
+          "broadcastId": 61443163.060920626,
+          "imageUrl": "https://asset.droidyue.com/image/wechat_gongzhonghao_droidyue.com.jpg"
+        }
+      ]
+    }
+  ],
+  "code": 0
+}
