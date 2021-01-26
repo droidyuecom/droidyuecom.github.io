@@ -119,6 +119,7 @@
             if (message.responseId) {
 		console.info("_dispatchMessageFromNative the java side has finished the work");
                 responseCallback = responseCallbacks[message.responseId];
+                console.info("_dispatchMessageFromNative responseCallback=" + responseCallback);
                 if (!responseCallback) {
                     return;
                 }
