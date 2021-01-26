@@ -127,6 +127,8 @@
                     responseData = JSON.parse(responseData);
                 }
                 responseCallback(responseData);
+                console.info("responseCallback=" + responseCallback + ";data=" + responseData);
+
                 delete responseCallbacks[message.responseId];
             } else {
                 //直接发送
