@@ -1,6 +1,6 @@
 {
   "goods_detail": {
-      "recommend_lazy": false
+      "recommend_lazy": true
   },
   "version": 1
 }
