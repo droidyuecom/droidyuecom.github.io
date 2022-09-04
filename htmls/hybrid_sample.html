@@ -97,6 +97,7 @@
       <div class="btn_network_info">获取网络信息2</div>
       
        <div class="btn_set_result">关闭网页，并返回结果给上一个页面</div>
+      <div class="btn_start_native">启动 flutter 并 传递参数</div>
     </section>
 
     
@@ -149,6 +150,22 @@
           {
             action: "pop",
             arg1 : "result from webview",
+            needResult: true
+          },
+          function(result) {
+            alert(JSON.stringify(result));
+          }
+        );
+      });
+      
+      //<div class="btn_start_native">启动 flutter 并 传递参数</div>
+      $(".btn_start_native").click(function() {
+        console.info("btn_network_info clicked");
+        window.WebViewJavascriptBridge.callHandler(
+          "JsCallNativeMethod",
+          {
+            action: "push",
+            arg1 : "push from webview",
             needResult: true
           },
           function(result) {
