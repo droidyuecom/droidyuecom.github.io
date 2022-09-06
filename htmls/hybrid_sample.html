@@ -97,6 +97,7 @@
       <div class="btn_get_args">获取参数</div>
       
        <div class="btn_set_result">关闭网页，并返回结果给上一个页面</div>
+       <div class="btn_pop_until_url">Pop until by URL</div>
       <div class="btn_start_native">启动 flutter 并 传递参数</div>
       <div class="btn_start_webview">启动 Webview 并 传递参数, 返回结果</div>
     </section>
@@ -184,6 +185,22 @@
           {
             action: "push",
             arg1 : "web",
+            needResult: true
+          },
+          function(result) {
+            alert(JSON.stringify(result));
+          }
+        );
+      });
+      
+      //       <div class="btn_pop_until_url">Pop until by URL</div>
+      $(".btn_pop_until_url").click(function() {
+        console.info("btn_network_info clicked");
+        window.WebViewJavascriptBridge.callHandler(
+          "JsCallNativeMethod",
+          {
+            action: "pop",
+            arg1 : {"name": "", "url": "https://asset.droidyue.com/htmls/hybrid_sample.html"},
             needResult: true
           },
           function(result) {
